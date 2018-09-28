@@ -1,3 +1,70 @@
+
+/**
+ * MEDIUM
+ * https://www.hackerrank.com/contests/hourrank-28/challenges/the-most-elegant-sequence
+ * The Most Elegant Sequence
+ *
+ * In this problem, every string has a beauty value which is represented as a positive integer.
+
+The elegance of a sequence of strings  is defined as
+
+where  denotes the beauty of string , and  represents the bitwise XOR operation. In particular, the elegance of a sequence of just one string is just the beauty value of that string. Also, the elegance of an empty sequence is .
+Diane has  strings , each consisting of the digits  to , and  has beauty value . She would like to form the most elegant sequence of strings among them. She can write any string with her digit cards; for every digit  from  to , she has exactly  cards in which the digit  is written, so she has  cards in total. For example, 1 digit card each for every number  to  would be,
+
+image
+
+Furthermore:
+
+She may write the strings in any order, but she can only form each string at most once.
+To write a string, she has to use the cards. But each card can only be used once, so it may not be possible to write all strings.
+Given the above restrictions, what is the maximum elegance of any sequence that Diane can form?
+
+Complete the function maximumElegance which takes in an integer , an array  consisting of  strings, and an array  consisting of  integers denoting their respective beauty values and returns the maximum elegance of any sequence that Diane can form.
+
+Input Format
+
+The first line contains two space-separated integers  and .
+
+The second line contains  space-separated integers  denoting the beauty values of the strings.
+
+The  of the next  lines contains the  string, .
+
+Constraints
+
+ is a string of digits -.
+Subtask
+
+For ~20% of the total score,
+Output Format
+
+Print a single integer denoting the maximum elegance which can be obtained by Diane.
+
+Sample Input 0
+
+3 2
+2 3 1
+1032
+2467
+48957
+Sample Output 0
+
+8
+Explanation 0
+
+Note that , which means we have two cards for each digit, and so we can write all three strings.
+
+image
+
+If we write all three strings in the order , then we get an elegance of , which is the maximum possible.
+
+Submissions: 417
+Max Score: 50
+Difficulty: Medium
+Rate This Challenge:
+
+
+
+ */
 #include <iostream>
 #include <vector>
 
@@ -84,21 +151,6 @@ int maximumElegance(int q, vector<string> s, vector<int> b) {
     return result;
 }
 
-int main() {
-    vector<string> s;
-    s.push_back("1032");
-    s.push_back("2467");
-    s.push_back("48957");
-
-    vector<int> b;
-    b.push_back(2);
-    b.push_back(3);
-    b.push_back(1);
-
-    int result = maximumElegance( 2, s, b);
-    cout << result << endl;
-    return 0;
-}
 
 //vector< vector<int>> possibleSet( vector< vector<int>> sets, int n ) {
 //    if ( n <= 0 ) return sets;
