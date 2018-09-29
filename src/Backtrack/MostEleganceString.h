@@ -65,6 +65,8 @@ Rate This Challenge:
 
 
  */
+#pragma once
+
 #include <iostream>
 #include <vector>
 
@@ -77,79 +79,88 @@ using namespace std;
 // 3) strings: they can different order
 
 // using backtracking algorithm, for recursive call we take out 1 string and compute the rest. O( 2 ^ n )
-int maxEleganceRec( vector<string> s, vector<int> b, vector<int> & digits
-        , vector<bool> & visited, int lastPos, int pos, int currentElegance) {
+int maxEleganceRec(vector<string> s, vector<int> b, vector<int> &digits, vector<bool> &visited, int lastPos, int pos,
+                   int currentElegance) {
 
-    if ( visited[pos] ) return currentElegance;
-    visited[pos] = true;
+  if (visited[pos]) return currentElegance;
+  visited[pos] = true;
 
-    bool excludeThisString = false;
-    // check has enough digits
-    for ( char c : s[pos]) {
-        int currentDigit = (c-48);
-        // exclude this card
-        if ( digits[ currentDigit ] < 1) {
-            excludeThisString = true;
-            break;
-        }
+  bool excludeThisString = false;
+  // check has enough digits
+  for (char c : s[pos]) {
+    int currentDigit = (c - 48);
+    // exclude this card
+    if (digits[currentDigit] < 1) {
+      excludeThisString = true;
+      break;
+    }
+  }
+
+  if (!excludeThisString) {
+    // update digits for minusing this string
+    for (char c : s[pos]) {
+      int currentDigit = (c - 48);
+      digits[currentDigit]--;
     }
 
-    if ( !excludeThisString ) {
-        // update digits for minusing this string
-        for ( char c : s[pos]) {
-            int currentDigit = (c-48);
-            digits[ currentDigit ]--;
-        }
-
-        // update current elegance
-        if ( lastPos == -1 ) {
-            currentElegance += b[pos];
-            lastPos = -2; // it is just a condition identify that we used the first position
-        }
-        else {
-            currentElegance += b[lastPos] ^ b[pos];
-        }
+    // update current elegance
+    if (lastPos == -1) {
+      currentElegance += b[pos];
+      lastPos = -2; // it is just a condition identify that we used the first position
+    } else {
+      currentElegance += b[lastPos] ^ b[pos];
     }
+  }
 
-    // recursively call for next card
-    int subResult = 0;
-    for ( int i = 0 ; i < s.size() ; i++ ) {
-        int currentResult = maxEleganceRec(s, b, digits, visited, ( lastPos == -1 ? -1 : pos ), i, currentElegance);
-        if ( subResult < currentResult) {
-            subResult = currentResult;
-        }
+  // recursively call for next card
+  int subResult = 0;
+  for (int i = 0; i < s.size(); i++) {
+    int currentResult = maxEleganceRec(s, b, digits, visited, (lastPos == -1 ? -1 : pos), i, currentElegance);
+    if (subResult < currentResult) {
+      subResult = currentResult;
     }
+  }
 
-    // update visited and digits
-    visited[pos] = false;
-    if ( !excludeThisString ) {
-        for ( char c : s[pos]) {
-            int currentDigit = (c-48);
-            digits[ currentDigit ]++;
-        }
+  // update visited and digits
+  visited[pos] = false;
+  if (!excludeThisString) {
+    for (char c : s[pos]) {
+      int currentDigit = (c - 48);
+      digits[currentDigit]++;
     }
+  }
 
-    return subResult;
+  return subResult;
 }
+
 int maximumElegance(int q, vector<string> s, vector<int> b) {
-    vector<int> digits;
-    for (int i = 0; i < 10; i++) {
-        digits.push_back(q);
-    }
-    vector<bool> visited;
-    for (int i = 0; i < s.size(); i++) {
-        visited.push_back(false);
-    }
+  vector<int> digits;
+  for (int i = 0; i < 10; i++) {
+    digits.push_back(q);
+  }
+  vector<bool> visited;
+  for (int i = 0; i < s.size(); i++) {
+    visited.push_back(false);
+  }
 
-    int result = 0;
-    for (int i = 0; i < s.size(); i++) {
-        int currentResult = maxEleganceRec(s, b, digits, visited, -1, i, 0);
-        if (result < currentResult) {
-            result = currentResult;
-        }
+  int result = 0;
+  for (int i = 0; i < s.size(); i++) {
+    int currentResult = maxEleganceRec(s, b, digits, visited, -1, i, 0);
+    if (result < currentResult) {
+      result = currentResult;
     }
-    return result;
+  }
+  return result;
 }
+
+void MostEleganceStringMain() {
+  vector<string> s{"1032","2467","48957"};
+  vector<int> b{2,3,1};
+
+  int result = maximumElegance(2, s, b);
+  cout << result << endl;
+}
+
 
 
 //vector< vector<int>> possibleSet( vector< vector<int>> sets, int n ) {

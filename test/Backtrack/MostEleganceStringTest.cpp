@@ -5,7 +5,7 @@
 #include "catch.hpp"
 #include "Backtrack/MostEleganceString.h"
 
-TEST_CASE( "Test 1", "[Test1]" ) {
+TEST_CASE( "Most Elegance String test 1", "[MostEleganceStringTest1]" ) {
     vector<string> s;
     s.push_back("1032");
     s.push_back("2467");

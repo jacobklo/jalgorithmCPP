@@ -24,5 +24,10 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${PROJECT_SOURCE_DIR}/../src)
 
-add_executable(jalgorithmCPP_Test Backtrack/MostEleganceStringTest.cpp ../src/Backtrack/MostEleganceString.h)
+add_executable(jalgorithmCPP_Test
+# TODO should not need to commit other files
+#        Backtrack/MostEleganceStringTest.cpp
+#        ../src/Backtrack/MostEleganceString.h
+        Math/BusStopTest.cpp
+        ../src/Math/BusStop.h )
 
