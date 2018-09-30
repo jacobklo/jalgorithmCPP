@@ -2,9 +2,9 @@
 // Created by Jacob Lo on 28/09/2018.
 //
 
-#include "Math/BusStop.h"
+#include "DataStructure/LinkedList/Get5NodesBefore.h"
 
 int main() {
-    BusStopMain2();
+    
     return 0;
 }

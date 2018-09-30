@@ -20,5 +20,10 @@ set(CMAKE_CXX_STANDARD 14)
 # -- END -- NO NEED MODIFY
 #--------------------------------------------
 
-add_executable(jalgorithmCPP main.cpp Backtrack/MostEleganceString.h Math/BusStop.h)
+add_executable(jalgorithmCPP
+        main.cpp
+        Backtrack/MostEleganceString.h
+        Math/BusStop.h
+        DataStructure/LinkedList/Reverse5Nodes.h
+        )
 

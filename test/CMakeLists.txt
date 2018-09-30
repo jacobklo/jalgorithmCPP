@@ -25,9 +25,12 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${PROJECT_SOURCE_DIR}/../src)
 
 add_executable(jalgorithmCPP_Test
-# TODO should not need to commit other files
-#        Backtrack/MostEleganceStringTest.cpp
-#        ../src/Backtrack/MostEleganceString.h
+        # Need to add a main() to run, it is in MostEleganceStringTest.cpp
+        Backtrack/MostEleganceStringTest.cpp
+        ../src/Backtrack/MostEleganceString.h
         Math/BusStopTest.cpp
-        ../src/Math/BusStop.h )
+        ../src/Math/BusStop.h
+        DataStructure/LinkedList/Get5NodesBeforeTest.cpp
+        ../src/DataStructure/LinkedList/Get5NodesBefore.h
+        )
 
