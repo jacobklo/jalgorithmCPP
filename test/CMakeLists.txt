@@ -30,7 +30,8 @@ add_executable(jalgorithmCPP_Test
         ../src/Backtrack/MostEleganceString.h
         Math/BusStopTest.cpp
         ../src/Math/BusStop.h
-        DataStructure/LinkedList/Get5NodesBeforeTest.cpp
-        ../src/DataStructure/LinkedList/Get5NodesBefore.h
-        )
+        DataStructure/LinkedList/GetNodesBeforeTest.cpp
+        ../src/DataStructure/LinkedList/GetNodesBefore.h
+        DataStructure/LinkedList/ReverseLastnNodesTest.cpp
+        ../src/DataStructure/LinkedList/ReverseLastnNodes.h)
 

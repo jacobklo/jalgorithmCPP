@@ -24,6 +24,7 @@ add_executable(jalgorithmCPP
         main.cpp
         Backtrack/MostEleganceString.h
         Math/BusStop.h
-        DataStructure/LinkedList/Reverse5Nodes.h
+        DataStructure/LinkedList/GetNodesBefore.h
+        DataStructure/LinkedList/ReverseLastnNodes.h
         )
 
