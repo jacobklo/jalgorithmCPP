@@ -1,6 +1,7 @@
 # Check out my Java edition, jalgorithm
 
-# This project includes some of the algorithms I came across online
+# This project
+includes some of the algorithms I came across online
 I actively work on new Algorithms in GeeksforGeeks.org, Hackerrank.com, Topcoder.org, etc.
 
 # This solution is configure into 2 CMake solutions:
