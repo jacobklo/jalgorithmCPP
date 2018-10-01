@@ -27,5 +27,6 @@ add_executable(jalgorithmCPP
         DataStructure/LinkedList/GetNodesBefore.h
         DataStructure/LinkedList/ReverseLastnNodes.h
         String/ReverseString.h
-        Math/SquareRoot.h DataStructure/Deque.h)
+        Math/SquareRoot.h
+        DataStructure/Deque.h)
 
