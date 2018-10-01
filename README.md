@@ -18,25 +18,25 @@ This allow easy extraction of that algorithm
 All algorithms also is namespaced of its own, so no interaction between others,  
 unlike normal projects.
 
-##List of Algorithm curently have:
-
-#####Backtrack
-MostEleganceString - Hackerrank
-***
-
-####DataStructure
-LinkedList  
---GetNodesBefore  
---ReverseLastnNodes  
+## List of Algorithm curently have:  
   
-Deque
+#### Backtrack  
+* MostEleganceString - Hackerrank  
 ***
 
-####Math  
-BusStop - Hackerrank  
-SqureRoot  
+#### DataStructure  
+* LinkedList  
+  * GetNodesBefore  
+  * ReverseLastnNodes  
+  
+* Deque  
 ***
 
-####String
-ReverseString
+#### Math  
+* BusStop - Hackerrank  
+* SqureRoot  
+***
+
+#### String  
+* ReverseString  
 ***
