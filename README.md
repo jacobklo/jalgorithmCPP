@@ -21,22 +21,22 @@ unlike normal projects.
 ## List of Algorithm curently have:  
   
 #### Backtrack  
-* MostEleganceString - Hackerrank  
+* [MostEleganceString - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/MostEleganceString.h)
 ***
 
 #### DataStructure  
-* LinkedList  
-  * GetNodesBefore  
-  * ReverseLastnNodes  
+* LinkedList
+  * [GetNodesBefore](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/LinkedList/GetNodesBefore.h)
+  * [ReverseLastnNodes](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/LinkedList/ReverseLastnNodes.h)
   
-* Deque  
+* [Deque](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/Deque.h)  
 ***
 
 #### Math  
-* BusStop - Hackerrank  
-* SqureRoot  
+* [BusStop - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/BusStop.h)
+* [SqureRoot](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/SquareRoot.h)
 ***
 
 #### String  
-* ReverseString  
+* [ReverseString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ReverseString.h)
 ***
