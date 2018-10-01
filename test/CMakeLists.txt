@@ -33,5 +33,7 @@ add_executable(jalgorithmCPP_Test
         DataStructure/LinkedList/GetNodesBeforeTest.cpp
         ../src/DataStructure/LinkedList/GetNodesBefore.h
         DataStructure/LinkedList/ReverseLastnNodesTest.cpp
-        ../src/DataStructure/LinkedList/ReverseLastnNodes.h)
+        ../src/DataStructure/LinkedList/ReverseLastnNodes.h
+        String/ReverseStringTest.cpp
+        ../src/String/ReverseString.h)
 

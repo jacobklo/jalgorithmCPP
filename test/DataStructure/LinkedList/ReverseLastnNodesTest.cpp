@@ -5,9 +5,7 @@
 #include "catch.hpp"
 #include "DataStructure/LinkedList/ReverseLastnNodes.h"
 
-using namespace ReverseLastnNodes;
-
-namespace ReverseLastnNodesTest {
+namespace ReverseLastnNodes {
   Node genList(int num) {
     Node root(0);
     Node *current = &root;

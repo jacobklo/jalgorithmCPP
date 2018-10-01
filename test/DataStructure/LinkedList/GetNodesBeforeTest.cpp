@@ -5,9 +5,7 @@
 #include "catch.hpp"
 #include "DataStructure/LinkedList/GetNodesBefore.h"
 
-using namespace GetNodesBefore;
-
-namespace GetNodesBeforeTest {
+namespace GetNodesBefore {
   Node genList() {
     Node root(0);
     Node *current = &root;
