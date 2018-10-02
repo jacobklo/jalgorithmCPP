@@ -9,12 +9,19 @@
 using namespace std;
 
 int main() {
-  Deque::Deque<int> d;
+  JDeque::Deque<int> d;
   for ( int i = 0 ; i < 10 ; i++ ) {
     d.push_back(i);
   }
 
-  for ( Deque::Deque<int>::iterator it = d.begin() ; it != d.end() ; ++it) {
-    cout << (*it) << endl;
+//  for ( int i = 100 ; i > 0 ; i=i-10) {
+//    d.push_front(i);
+//  }
+
+
+
+  for ( JDeque::Deque<int>::iterator it = d.begin() ; it != d.end() ; ++it) {
+    //cout << (*it) << endl;
   }
+  cout << "sfd";
 }

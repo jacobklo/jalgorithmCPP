@@ -4,31 +4,22 @@
 
 #pragma once
 
-namespace Deque {
-  template<class T>
-  class Node {
-  public:
-    Node(T d) {
-      data = d;
-    }
-
-    T data;
-    Node *last;
-    Node *next;
-  };
+namespace JDeque {
 
   template<class T>
   class Deque {
+    class Node;
+
   public:
     Deque() {}
 
     void push_back(T d) {
       if (!rootFront) {
-        rootFront = new Node<T>(d);
+        rootFront = new Node(d);
         rootEnd = rootFront;
       } else {
-        Node<T> *newNode = new Node<T>(d);
-        rootEnd.next = newNode;
+        Node *newNode = new Node(d);
+        rootEnd->next = newNode;
         newNode->last = rootEnd;
         rootEnd = newNode;
       }
@@ -36,10 +27,10 @@ namespace Deque {
 
     void push_front(T d) {
       if (!rootFront) {
-        rootFront = new Node<T>(d);
+        rootFront = new Node(d);
         rootEnd = rootFront;
       } else {
-        Node<T> *newNode = new Node<T>(d);
+        Node *newNode = new Node(d);
         newNode->next = rootFront;
         rootFront->last = newNode;
         rootFront = newNode;
@@ -47,8 +38,8 @@ namespace Deque {
     }
 
     T pop_back() {
-      if (rootEnd == nullptr) return nullptr;
-      Node<T> *result = rootEnd;
+      if (rootEnd == nullptr) return 0;
+      Node *result = rootEnd;
       if (rootEnd->last == nullptr) {
         rootFront = nullptr;
         rootEnd = nullptr;
@@ -60,8 +51,8 @@ namespace Deque {
     }
 
     T pop_front() {
-      if (rootFront == nullptr) return nullptr;
-      Node<T> *result = rootFront;
+      if (rootFront == nullptr) return 0;
+      Node *result = rootFront;
       if (rootFront->next == nullptr) {
         rootFront = nullptr;
         rootEnd = nullptr;
@@ -72,32 +63,8 @@ namespace Deque {
       return result->data;
     }
 
-    // https://gist.github.com/jeetsukumaran/307264
-    // TODO fix error
-    class iterator {
-    public:
-      iterator(Node<T> *ptr) : m_Ptr(ptr) {}
-
-      iterator operator++() {
-        iterator i = *this;
-        m_Ptr = m_Ptr->next;
-        return i;
-      }
-
-      bool operator==( const iterator& other ) {
-        return m_Ptr == other.m_Ptr;
-      }
-      bool operator!=( const iterator& other ) {
-        return m_Ptr != other.m_Ptr;
-      }
-      Node<T>& operator*() {
-        return **m_Ptr;
-      }
-
-    private:
-      Node<T> *m_Ptr;
-    };
-
+    // REMEMBER : how to implement iterator
+    class iterator;
     iterator begin() {
       if (rootFront == nullptr) return nullptr;
       return iterator(rootFront);
@@ -106,9 +73,46 @@ namespace Deque {
     iterator end() {
       return iterator(nullptr);
     }
+    // Reference for more : https://www.geeksforgeeks.org/implementing-iterator-pattern-of-a-single-linked-list/
+    class iterator {
+    public:
+      iterator(Node *ptr) : m_Ptr(ptr) {}
 
-    Node<T> *rootFront = nullptr;
-    Node<T> *rootEnd = nullptr;
+      iterator& operator++() {
+        if ( m_Ptr ) {
+          m_Ptr = m_Ptr->next;
+        }
+        return *this;
+      }
+
+      bool operator!=( const iterator& other ) {
+        return m_Ptr != other.m_Ptr;
+      }
+
+      T operator*() {
+        return m_Ptr->data;
+      }
+
+    private:
+      const Node *m_Ptr;
+    };
+
+
+  private:
+    class Node {
+    public:
+
+      Node(T d) {
+        data = d;
+      }
+
+      T data;
+      Node *last = nullptr;
+      Node *next = nullptr;
+    };
+
+    Node *rootFront = nullptr;
+    Node *rootEnd = nullptr;
   };
 }
 
