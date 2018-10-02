@@ -37,6 +37,11 @@ unlike normal projects.
 * [SqureRoot](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/SquareRoot.h)
 ***
 
+#### Sort  
+* [QuickSort](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Sort/QuickSort.h)
+***
+
 #### String  
 * [ReverseString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ReverseString.h)
+* [Util ContainersToString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ContainersToString.h)
 ***

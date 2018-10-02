@@ -28,5 +28,6 @@ add_executable(jalgorithmCPP
         DataStructure/LinkedList/ReverseLastnNodes.h
         String/ReverseString.h
         Math/SquareRoot.h
-        DataStructure/Deque.h)
+        DataStructure/Deque.h Sort/QuickSort.h
+        String/ContainersToString.h ../test/Sort/QuickSortTest.cpp)
 

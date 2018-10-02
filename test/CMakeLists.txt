@@ -38,5 +38,8 @@ add_executable(jalgorithmCPP_Test
         ../src/String/ReverseString.h
         DataStructure/DequeTest.cpp
         ../src/DataStructure/Deque.h
+        Sort/QuickSortTest.cpp
+        ../src/Sort/QuickSort.h
+        ../src/String/ContainersToString.h
         )
 
