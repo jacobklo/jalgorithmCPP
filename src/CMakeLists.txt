@@ -29,5 +29,6 @@ add_executable(jalgorithmCPP
         String/ReverseString.h
         Math/SquareRoot.h
         DataStructure/Deque.h Sort/QuickSort.h
-        String/ContainersToString.h ../test/Sort/QuickSortTest.cpp)
+        String/ContainersToString.h
+        Search/BinarySearch.h)
 

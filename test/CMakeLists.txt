@@ -41,5 +41,7 @@ add_executable(jalgorithmCPP_Test
         Sort/QuickSortTest.cpp
         ../src/Sort/QuickSort.h
         ../src/String/ContainersToString.h
+        Search/BinarySearchTest.cpp
+        ../src/Search/BinarySearch.h
         )
 

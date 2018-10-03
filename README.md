@@ -37,6 +37,10 @@ unlike normal projects.
 * [SqureRoot](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/SquareRoot.h)
 ***
 
+#### Search  
+* [BinarySearch](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Search/BinarySearch.h)
+***
+
 #### Sort  
 * [QuickSort](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Sort/QuickSort.h)
 ***
