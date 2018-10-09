@@ -43,5 +43,5 @@ add_executable(jalgorithmCPP_Test
         ../src/String/ContainersToString.h
         Search/BinarySearchTest.cpp
         ../src/Search/BinarySearch.h
-        )
+        ../src/DesignPattern/Singleton.h)
 

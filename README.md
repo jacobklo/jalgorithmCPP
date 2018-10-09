@@ -32,6 +32,10 @@ unlike normal projects.
 * [Deque](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/Deque.h)  
 ***
 
+#### DesignPattern  
+* [Singleton](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Singleton.h)
+***
+
 #### Math  
 * [BusStop - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/BusStop.h)
 * [SqureRoot](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/SquareRoot.h)

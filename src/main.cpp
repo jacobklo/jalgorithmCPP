@@ -8,16 +8,14 @@
 
 #include "String/ContainersToString.h"
 
-#include "Search/BinarySearch.h"
+#include "Array/MinSwap.h"
 
 using namespace std;
 
 
 int main() {
-  vector<int> a { 0,2,3,5,6,9,10,11,14,15 };
-  int* arr = a.data();
-
-  for ( int i = 0 ; i < 16 ; i++ ) {
-    cout << i << boolalpha << BinarySearch::numExists(arr, a.size(), i) << endl;
-  }
+//  vector<int> arr{ 8,7,6,5,4,3,2,1 };
+  vector<int> arr{ 4,3,1,2};
+  int result = MinSwap::minimumSwaps( arr) ;
+  cout << result;
 }
