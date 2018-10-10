@@ -40,8 +40,11 @@ add_executable(jalgorithmCPP_Test
         ../src/DataStructure/Deque.h
         Sort/QuickSortTest.cpp
         ../src/Sort/QuickSort.h
-        ../src/String/ContainersToString.h
         Search/BinarySearchTest.cpp
         ../src/Search/BinarySearch.h
-        ../src/DesignPattern/Singleton.h)
+        Dictionary/CountTripletsGeometricProgressionTest.cpp
+        ../src/Dictionary/CountTripletsGeometricProgression.h
+        DynamicProgramming/MinCostPathTest.cpp
+        ../src/DynamicProgramming/MinCostPath.h
+        ../src/String/ContainersToString.h)
 

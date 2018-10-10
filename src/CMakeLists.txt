@@ -35,5 +35,7 @@ add_executable(jalgorithmCPP
         DesignPattern/Singleton.h
         Array/MinSwap.h
         DynamicProgramming/Abbreviation.h
+        Dictionary/CountTripletsGeometricProgression.h
+        DynamicProgramming/MinCostPath.h
         )
 

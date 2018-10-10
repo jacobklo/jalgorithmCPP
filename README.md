@@ -36,6 +36,14 @@ unlike normal projects.
 * [Singleton](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Singleton.h)
 ***
 
+#### Dictionary  
+* [Count Triplets In Geometric Progression](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/CountTripletsGeometricProgression.h)
+***
+
+#### Dynamic Programming  
+* [Min Cost Path in Matrix](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DynamicProgramming/MinCostPath.h)
+***
+
 #### Math  
 * [BusStop - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/BusStop.h)
 * [SqureRoot](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/SquareRoot.h)
