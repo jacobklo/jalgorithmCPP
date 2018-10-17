@@ -37,5 +37,6 @@ add_executable(jalgorithmCPP
         DynamicProgramming/Abbreviation.h
         Dictionary/CountTripletsGeometricProgression.h
         DynamicProgramming/MinCostPath.h
+        Sort/FraudulentActivityNotifications.h
         )
 
