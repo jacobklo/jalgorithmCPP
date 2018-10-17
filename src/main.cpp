@@ -8,12 +8,13 @@
 
 #include "String/ContainersToString.h"
 
-#include "Sort/FraudulentActivityNotifications.h"
+#include "DynamicProgramming/MaxSubsetSum.h"
 
 using namespace std;
 
 int main() {
-  vector<int> arr{ 2,3,4,2,3,6,8,4, };
-  int result = FraudulentActivityNotifications::activityNotifications(arr, 5);
+  vector<int> arr{3,7,4,6,5};
+  vector<int> arr2{3,5,-7,8,10};
+  int result = MaxSubsetSum::maxSubsetSum(arr);
   cout << result;
 }

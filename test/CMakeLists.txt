@@ -46,5 +46,10 @@ add_executable(jalgorithmCPP_Test
         ../src/Dictionary/CountTripletsGeometricProgression.h
         DynamicProgramming/MinCostPathTest.cpp
         ../src/DynamicProgramming/MinCostPath.h
-        ../src/String/ContainersToString.h)
+        Sort/FraudulentActivityNotificationsTest.cpp
+        ../src/Sort/FraudulentActivityNotifications.h
+        DynamicProgramming/MaxSubsetSumTest.cpp
+        ../src/DynamicProgramming/MaxSubsetSum.h
+        ../src/String/ContainersToString.h
+        )
 

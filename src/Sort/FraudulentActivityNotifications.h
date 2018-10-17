@@ -15,6 +15,7 @@
 #include <vector>
 #include <set>
 #include <functional>
+#include <queue>
 
 using namespace std;
 
@@ -58,6 +59,10 @@ namespace FraudulentActivityNotifications {
     priority_queue<int> lessEles; // elements less than median store in max heap
 
   public:
+    unsigned long size() {
+      return greatEles.size() + lessEles.size();
+    }
+
     void push(int n) {
       double currentMedian = 0;
       if (size() % 2 == 0 ) {
@@ -95,13 +100,6 @@ namespace FraudulentActivityNotifications {
       }
     }
 
-    void  {
-
-    }
-
-    unsigned long size() {
-      return greatEles.size() + lessEles.size();
-    }
   };
 
 }
