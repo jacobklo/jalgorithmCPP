@@ -50,6 +50,8 @@ add_executable(jalgorithmCPP_Test
         ../src/Sort/FraudulentActivityNotifications.h
         DynamicProgramming/MaxSubsetSumTest.cpp
         ../src/DynamicProgramming/MaxSubsetSum.h
+        Backtrack/DavisStaircaseTest.cpp
+        ../src/Backtrack/DavisStaircase.h
         ../src/String/ContainersToString.h
         )
 

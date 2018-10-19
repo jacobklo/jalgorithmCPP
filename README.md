@@ -22,6 +22,7 @@ unlike normal projects.
   
 #### Backtrack  
 * [MostEleganceString - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/MostEleganceString.h)
+* [Davis' Staircase - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/DavisStaircase.h)
 ***
 
 #### DataStructure  
@@ -30,6 +31,8 @@ unlike normal projects.
   * [ReverseLastnNodes](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/LinkedList/ReverseLastnNodes.h)
   
 * [Deque](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/Deque.h)  
+* [Queue by two Stacks](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/QueueUsingTwoStack.h)  
+
 ***
 
 #### DesignPattern  
@@ -55,6 +58,7 @@ unlike normal projects.
 
 #### Sort  
 * [QuickSort](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Sort/QuickSort.h)
+* [Fraudulent Activity Notifications](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Sort/FraudulentActivityNotifications.h)
 ***
 
 #### String  

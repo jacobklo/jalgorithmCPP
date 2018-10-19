@@ -39,5 +39,7 @@ add_executable(jalgorithmCPP
         DynamicProgramming/MinCostPath.h
         Sort/FraudulentActivityNotifications.h
         DynamicProgramming/MaxSubsetSum.h
+        Backtrack/DavisStaircase.h
+        DataStructure/QueueUsingTwoStack.h
         )
 
