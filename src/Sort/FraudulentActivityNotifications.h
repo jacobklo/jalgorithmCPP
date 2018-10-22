@@ -13,41 +13,55 @@
 #pragma once
 
 #include <vector>
-#include <set>
-#include <functional>
 #include <queue>
+#include <algorithm>
+#include <set>
 
 using namespace std;
 
 namespace FraudulentActivityNotifications {
 
-  // TODO
+  double calcMedian(const multiset<int>& set) {
+    auto middle = set.begin();
+    for ( int i = 0 ; i < (set.size()-1) / 2 ; i++, ++middle) {}
+
+    double median = *middle;
+    if ( set.size() % 2 == 0) {
+      median = ( median + (*middle+1) ) / 2;
+    }
+
+    return median;
+  }
+
   int activityNotifications(vector<int> expenditure, int d) {
 
-    int notices;
-    multiset<int> dmap;
-    /// loop through expenditure, update BST to max d num of elements, find if i is bigger than median
-    for ( int i = 0 ; i < expenditure.size() ; i++ ){
+    int notices = 0;
+    vector<int> lastElements;
+    multiset<int> lastElementsSorted;
 
-      /// check if BST has enough elements. if num of elements smaller than d, append and continue
-      if ( dmap.size() < d ) {
-        dmap.insert( expenditure[i] );
-        continue;
-      }
+    /// check if BST has enough elements. if num of elements smaller than d, append and continue
+    for ( int i = 0 ; i < d && i < expenditure.size(); i++ ) {
+      lastElements.push_back(expenditure[i]);
+      lastElementsSorted.insert(expenditure[i]);
+    }
+
+    /// loop through expenditure, update BST to max d num of elements, find if i is bigger than median
+    for ( int i = d ; i < expenditure.size() ; i++ ){
 
       /// check if median is smaller than i expends, if so, add notice
-      multiset<int>::iterator it = dmap.begin();
-      // find median node
-      for ( int j = 0 ; j < dmap.size() / 2 ; j++, ++it ) {}
-
-      // check median < i expends
-      if ( (*it) < expenditure[i] ) {
+      double median = calcMedian(lastElementsSorted);
+      if ( 2*median <= expenditure[i] ) {
         notices++;
       }
 
       /// update BST
-      dmap.erase( dmap.begin() );
-      dmap.insert( expenditure[i] );
+      // REMEMBER : cannot do this, it will remove all number that has the same value!
+//      dmap.erase(  );
+      auto toRemoveOldestItr = lastElementsSorted.find( lastElements[0] );
+      lastElementsSorted.erase( toRemoveOldestItr );
+      lastElements.erase( lastElements.begin());
+      lastElementsSorted.insert( expenditure[i] );
+      lastElements.push_back( expenditure[i] );
     }
 
     return notices;

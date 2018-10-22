@@ -41,5 +41,7 @@ add_executable(jalgorithmCPP
         DynamicProgramming/MaxSubsetSum.h
         Backtrack/DavisStaircase.h
         DataStructure/QueueUsingTwoStack.h
+        Search/TripleSum.h
+        Backtrack/AddTwoNumbers.h
         )
 

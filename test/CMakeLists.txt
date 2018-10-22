@@ -52,6 +52,8 @@ add_executable(jalgorithmCPP_Test
         ../src/DynamicProgramming/MaxSubsetSum.h
         Backtrack/DavisStaircaseTest.cpp
         ../src/Backtrack/DavisStaircase.h
+        Backtrack/AddTwoNumbersTest.cpp
+        ../src/Backtrack/AddTwoNumbers.h
         ../src/String/ContainersToString.h
         )
 
