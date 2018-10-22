@@ -25,24 +25,32 @@ using namespace std;
 namespace AddTwoNumbers {
   struct Node {
     int data;
+    /// REMEMBER : to init as nullptr!
     Node* next = nullptr;
 
     Node(int d) { data = d; }
+
+    static string nodeToString(Node* root) {
+      string result = "";
+      while (root != nullptr) {
+        result += to_string(root->data);
+        root = root->next;
+      }
+      return result;
+    }
+
+    static int size(Node* root ) {
+      int i = 1;
+      for( ; root->next != nullptr; i++, root = root->next ) { }
+      return i;
+    }
   };
 
-  string nodeToString(Node* root) {
-    string result = "";
-    while(root != nullptr) {
-      result += to_string(root->data);
-      root = root->next;
-    }
-    return result;
-  }
-
-  void add(Node& result, Node* a, Node* b) {
+  /// util add method
+  void add(Node& result, int aPos, int bPos, Node* a, Node* b) {
 
     /// if both a and b is last node
-    if ( a->next == nullptr && b->next == nullptr ) {
+    if ( aPos == 0 && bPos == 0 ) {
       int added = a->data + b->data;
       Node* newNode = new Node( ( added > 10 ? added - 10: added ) );
       result.data = ( added > 10 ? 1 : 0 );
@@ -50,28 +58,41 @@ namespace AddTwoNumbers {
       return;
     }
 
-    // TODO : test case 123 + 10 wrong!
     result.next = new Node(INT_MIN);
-    Node* ANextNodeOrLast = ( a->next != nullptr ? a->next : a );
-    Node* BNextNodeOrLast = ( b->next != nullptr ? b->next : b );
-
-    add( *(result.next), ANextNodeOrLast, BNextNodeOrLast);
-    int added = result.next->data;
-    // if current a is not the last node, which means we need to handle current a,
-    // if it is last node already, then recursive already added, no need to handle
-    // Think of a == 1[2]3, where [] is current
-    // b == [6]
-    // we recursive call add, where recursive-current of a == 12[3], and b == [6].
-    // if this current recurion, it should be a == 1[2]3, b == [0]6
-    if ( a->next != nullptr ) {
-      added += a->data;
+    int added = 0;
+    /// if both a's and b's current node is not the last node, but the digit align, then add current digit
+    if ( aPos == bPos ) {
+      add( *(result.next), aPos-1, bPos-1, a->next, b->next);
+      added = result.next->data + a->data + b->data;
     }
-    if ( b->next != nullptr ) {
-      added += b->data;
+
+      /// digit from a and b is not align, recursively call until it is align
+    else if ( aPos > bPos ) {
+      add( *(result.next), aPos-1, bPos, a->next, b);
+      added = result.next->data + a->data;
+    }
+
+    else if ( aPos < bPos ) {
+      add( *(result.next), aPos, bPos-1, a, b->next);
+      added = result.next->data + b->data;
     }
     result.next->data = ( added > 10 ? added - 10: added );
+    // add first digit so far, it is either 1 or 0, because added digit from last digit is max of 19
     result.data = ( added > 10 ? 1 : 0 );
-    return;
-
   }
+
+  /// wrapper method
+  string add( Node* a, Node* b) {
+    int aPos = Node::size(a) - 1;
+    int bPos = Node::size(b) - 1;
+    Node * result = new Node(INT_MIN);
+    add( *result, aPos, bPos, a, b);
+
+    // remove first digit if it is 0
+    if( result->data == 0 ) {
+      result = result->next;
+    }
+    return Node::nodeToString(result );
+  }
+
 }
