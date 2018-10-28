@@ -1,0 +1,8 @@
+//
+// Created by j on 10/28/18.
+//
+
+#ifndef JALGORITHMCPP_TRIPLESUM_H
+#define JALGORITHMCPP_TRIPLESUM_H
+
+#endif //JALGORITHMCPP_TRIPLESUM_H
