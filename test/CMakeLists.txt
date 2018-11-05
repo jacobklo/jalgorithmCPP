@@ -54,6 +54,10 @@ add_executable(jalgorithmCPP_Test
         ../src/Backtrack/DavisStaircase.h
         Backtrack/AddTwoNumbersTest.cpp
         ../src/Backtrack/AddTwoNumbers.h
+        Array/LarrysArrayTest.cpp
+        ../src/Array/LarrysArray.h
+        DynamicProgramming/CandiesTest.cpp
+        ../src/DynamicProgramming/Candies.h
         ../src/String/ContainersToString.h
         )
 

@@ -20,6 +20,10 @@ unlike normal projects.
 
 ## List of Algorithm curently have:  
   
+#### Array  
+* [Larry's Array - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Array/LarrysArray.h)
+* [MinSwap](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Array/MinSwap.h)
+***
 #### Backtrack  
 * [MostEleganceString - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/MostEleganceString.h)
 * [Davis' Staircase - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/DavisStaircase.h)
