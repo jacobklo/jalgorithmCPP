@@ -43,7 +43,8 @@ add_executable(jalgorithmCPP
         DataStructure/QueueUsingTwoStack.h
         Search/TripleSum.h
         Backtrack/AddTwoNumbers.h
-        DynamicProgramming/Candies.h
         Array/LarrysArray.h
+        Math/OrganizingContainersOfBalls.h
+        DataStructure/Pointers.h
         )
 
