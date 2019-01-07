@@ -46,5 +46,6 @@ add_executable(jalgorithmCPP
         Array/LarrysArray.h
         Math/OrganizingContainersOfBalls.h
         DataStructure/Pointers.h
+        String/SherlockValidString.h
         )
 
