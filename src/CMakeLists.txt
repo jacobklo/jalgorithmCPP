@@ -30,7 +30,7 @@ add_executable(jalgorithmCPP
         Math/SquareRoot.h
         DataStructure/Deque.h
         Sort/QuickSort.h
-        String/ContainersToString.h
+        STLDuddle/ContainersToString.h
         Search/BinarySearch.h
         DesignPattern/Singleton.h
         Array/MinSwap.h
@@ -45,7 +45,11 @@ add_executable(jalgorithmCPP
         Backtrack/AddTwoNumbers.h
         Array/LarrysArray.h
         Math/OrganizingContainersOfBalls.h
-        DataStructure/Pointers.h
+        STLDuddle/Pointers.h
         String/SherlockValidString.h
+        STLDuddle/Sort.h
+        STLDuddle/PrintContainer.h
+        List/MergeTwoList.h
+
         )
 
