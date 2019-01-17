@@ -53,6 +53,10 @@ unlike normal projects.
 * [Min Cost Path in Matrix](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DynamicProgramming/MinCostPath.h)
 ***
 
+#### Heap  
+* [KClosest - Leetcode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Heap/KClosest.h)
+***
+
 #### List  
 * [Merge Two Lists - Leetcode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/List/MergeTwoList.h)
 ***
