@@ -3,7 +3,6 @@
 //
 
 #include <iostream>
-#include <random>
 
 #include <vector>
 #include <array>
@@ -12,14 +11,15 @@
 #include <queue>
 
 #include <algorithm>
-
-#include "STLDuddle/PrintContainer.h"
-
-#include "Heap/KClosest.h"
+#include <sstream>
+#include <string>
+#include <iterator>
 
 using namespace std;
 
 
+
 int main() {
-    KClosest::test();
+
+
 }

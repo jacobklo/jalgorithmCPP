@@ -47,6 +47,5 @@ namespace KClosest {
         vector< vector<int> > points { p3, p2, p1 };
 
         auto result = kClosest( pss, 5 );
-        cout << result;
     }
 }

@@ -47,6 +47,7 @@ unlike normal projects.
 
 #### Dictionary  
 * [Count Triplets In Geometric Progression](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/CountTripletsGeometricProgression.h)
+* [Subdomain Visit Count - Leetcode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/SubdomainVisitCount.h)
 ***
 
 #### Dynamic Programming  

@@ -49,7 +49,10 @@ add_executable(jalgorithmCPP
         String/SherlockValidString.h
         STLDuddle/Sort.h
         STLDuddle/PrintContainer.h
+        STLDuddle/SplitString.h
+        STLDuddle/ConcatenateStrings.h
         List/MergeTwoList.h
         Heap/KClosest.h
+        Dictionary/SubdomainVisitCount.h
         )
 
