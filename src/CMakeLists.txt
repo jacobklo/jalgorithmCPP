@@ -54,5 +54,6 @@ add_executable(jalgorithmCPP
         List/MergeTwoList.h
         Heap/KClosest.h
         Dictionary/SubdomainVisitCount.h
+        String/UniqueEmails.h
         )
 

@@ -80,5 +80,6 @@ unlike normal projects.
 * [ReverseString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ReverseString.h)
 * [Util ContainersToString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ContainersToString.h)
 * [Sherlock and the Valid String](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/SherlockValidString.h)
+* [Unique Emails - LeetCode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/UniqueEmails.h)
 
 ***
