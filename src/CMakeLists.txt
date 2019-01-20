@@ -55,5 +55,7 @@ add_executable(jalgorithmCPP
         Heap/KClosest.h
         Dictionary/SubdomainVisitCount.h
         String/UniqueEmails.h
-        Tree/FlattenBinaryTreeList.h)
+        Tree/FlattenBinaryTreeList.h
+        Tree/PopulatingNextRightPointersInEachNode.h
+        )
 

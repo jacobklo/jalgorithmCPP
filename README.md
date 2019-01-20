@@ -85,4 +85,5 @@ unlike normal projects.
 
 #### Tree  
 * [FlattenBinaryTreeToList - LeetCode MEDIUM](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Tree/FlattenBinaryTreeList.h)
+* [PopulatingNextRightPointersInEachNode - LeetCode MEDIUM](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Tree/PopulatingNextRightPointersInEachNode.h)
 ***
