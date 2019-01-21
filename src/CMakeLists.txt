@@ -57,5 +57,5 @@ add_executable(jalgorithmCPP
         String/UniqueEmails.h
         Tree/FlattenBinaryTreeList.h
         Tree/PopulatingNextRightPointersInEachNode.h
-        )
+        String/Permutations.h)
 

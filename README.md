@@ -81,6 +81,7 @@ unlike normal projects.
 * [Util ContainersToString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ContainersToString.h)
 * [Sherlock and the Valid String](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/SherlockValidString.h)
 * [Unique Emails - LeetCode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/UniqueEmails.h)
+* [Permutations - Medium - LeetCode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/Permutations.h)
 ***
 
 #### Tree  
