@@ -5,7 +5,7 @@
 #include <vector>
 
 #include "catch.hpp"
-#include "String/ContainersToString.h"
+#include "STLDuddle/ContainersToString.h"
 #include "Sort/QuickSort.h"
 
 using namespace std;

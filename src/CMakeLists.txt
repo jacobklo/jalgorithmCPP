@@ -59,5 +59,6 @@ add_executable(jalgorithmCPP
         Tree/PopulatingNextRightPointersInEachNode.h
         String/Permutations.h
         Backtrack/RestoreIPAddress.h
+        DataStructure/RingBuffer.h
         )
 

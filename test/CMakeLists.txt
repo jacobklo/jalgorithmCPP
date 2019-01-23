@@ -56,8 +56,8 @@ add_executable(jalgorithmCPP_Test
         ../src/Backtrack/AddTwoNumbers.h
         Array/LarrysArrayTest.cpp
         ../src/Array/LarrysArray.h
-        DynamicProgramming/CandiesTest.cpp
-        ../src/DynamicProgramming/Candies.h
-        ../src/String/ContainersToString.h
+        ../src/STLDuddle/ContainersToString.h
+        DataStructure/RingBufferTest.cpp
+        ../src/DataStructure/RingBuffer.h
         )
 
