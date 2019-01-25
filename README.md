@@ -54,6 +54,7 @@ unlike normal projects.
 
 #### Dynamic Programming  
 * [Min Cost Path in Matrix](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DynamicProgramming/MinCostPath.h)
+* [Knapsack](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DynamicProgramming/Knapsack.h)
 ***
 
 #### Heap  

@@ -59,5 +59,7 @@ add_executable(jalgorithmCPP_Test
         ../src/STLDuddle/ContainersToString.h
         DataStructure/RingBufferTest.cpp
         ../src/DataStructure/RingBuffer.h
+        DynamicProgramming/KnapsackTest.cpp
+        ../src/DynamicProgramming/Knapsack.h
         )
 

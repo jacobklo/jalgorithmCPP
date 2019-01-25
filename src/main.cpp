@@ -16,6 +16,7 @@
 #include <sstream>
 #include <string>
 #include <iterator>
+#include <climits>
 
 using namespace std;
 
@@ -24,4 +25,6 @@ using namespace std;
 int main() {
 
 
+  int result = knapsack( bag2, 6);
+  cout << result;
 }

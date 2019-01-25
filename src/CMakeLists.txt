@@ -60,5 +60,6 @@ add_executable(jalgorithmCPP
         String/Permutations.h
         Backtrack/RestoreIPAddress.h
         DataStructure/RingBuffer.h
+        DynamicProgramming/Knapsack.h
         )
 
