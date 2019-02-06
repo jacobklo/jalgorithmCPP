@@ -23,6 +23,7 @@ unlike normal projects.
 #### Array  
 * [Larry's Array - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Array/LarrysArray.h)
 * [MinSwap](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Array/MinSwap.h)
+* [Diagonal Traverse - Leetcode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Array/DiagonalTraverse.h)
 ***
 #### Backtrack  
 * [MostEleganceString - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/MostEleganceString.h)
@@ -49,7 +50,7 @@ unlike normal projects.
 
 #### Dictionary  
 * [Count Triplets In Geometric Progression](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/CountTripletsGeometricProgression.h)
-* [Subdomain Visit Count - Leetcode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/SubdomainVisitCount.h)
+* [Subdomain Visit Count - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/SubdomainVisitCount.h)
 ***
 
 #### Dynamic Programming  
@@ -58,11 +59,11 @@ unlike normal projects.
 ***
 
 #### Heap  
-* [KClosest - Leetcode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Heap/KClosest.h)
+* [KClosest - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Heap/KClosest.h)
 ***
 
 #### List  
-* [Merge Two Lists - Leetcode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/List/MergeTwoList.h)
+* [Merge Two Lists - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/List/MergeTwoList.h)
 ***
 
 #### Math  
@@ -83,11 +84,11 @@ unlike normal projects.
 * [ReverseString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ReverseString.h)
 * [Util ContainersToString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ContainersToString.h)
 * [Sherlock and the Valid String](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/SherlockValidString.h)
-* [Unique Emails - LeetCode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/UniqueEmails.h)
-* [Permutations - Medium - LeetCode](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/Permutations.h)
+* [Unique Emails - LeetCode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/UniqueEmails.h)
+* [Permutations - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/Permutations.h)
 ***
 
 #### Tree  
-* [FlattenBinaryTreeToList - LeetCode MEDIUM](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Tree/FlattenBinaryTreeList.h)
-* [PopulatingNextRightPointersInEachNode - LeetCode MEDIUM](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Tree/PopulatingNextRightPointersInEachNode.h)
+* [FlattenBinaryTreeToList - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Tree/FlattenBinaryTreeList.h)
+* [PopulatingNextRightPointersInEachNode - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Tree/PopulatingNextRightPointersInEachNode.h)
 ***

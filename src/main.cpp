@@ -21,10 +21,6 @@
 using namespace std;
 
 
-
 int main() {
 
-
-  int result = knapsack( bag2, 6);
-  cout << result;
 }

@@ -61,5 +61,6 @@ add_executable(jalgorithmCPP
         Backtrack/RestoreIPAddress.h
         DataStructure/RingBuffer.h
         DynamicProgramming/Knapsack.h
+        Array/DiagonalTraverse.h
         )
 
