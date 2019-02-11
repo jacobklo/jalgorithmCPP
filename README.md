@@ -19,24 +19,81 @@ All algorithms also is namespaced of its own, so no interaction between others,
 unlike normal projects.
 
 ## List of Algorithm curently have:  
-  
-#### Array  
-* [Larry's Array - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Array/LarrysArray.h)
-* [MinSwap](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Array/MinSwap.h)
-* [Diagonal Traverse - Leetcode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Array/DiagonalTraverse.h)
-***
+
 #### Backtrack  
-* [MostEleganceString - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/MostEleganceString.h)
-* [Davis' Staircase - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/DavisStaircase.h)
-* [Add two numbers represented by linked lists - GeeksForGeeks](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/AddTwoNumbers.h)
-* [RestoreIPAddress - Leetcode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Backtrack/RestoreIPAddress.h)
+* [Add two numbers represented by linked lists - GeeksForGeeks](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/AlgorithmBacktrack/AddTwoNumbers.h)
+* [MostEleganceString - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/AlgorithmBacktrack/MostEleganceString.h)
+* [RestoreIPAddress - Leetcode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/AlgorithmBacktrack/RestoreIPAddress.h)
 ***
 
-#### DataStructure  
-* LinkedList
-  * [GetNodesBefore](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/LinkedList/GetNodesBefore.h)
-  * [ReverseLastnNodes](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/LinkedList/ReverseLastnNodes.h)
+
+#### Dynamic Programming  
+* [Abbreviation - Hackkerank - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Algorithm/DynamicProgramming/Abbreviation.h)
+* [Davis' Staircase - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/AlgorithmBacktrack/DavisStaircase.h)
+* [Knapsack](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Algorithm/DynamicProgramming/Knapsack.h)
+* [Max Subset Sum - Hackerrank - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Algorithm/DynamicProgramming/MaxSubsetSum.h)
+* [Min Cost Path in Matrix](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Algorithm/DynamicProgramming/MinCostPath.h)
+***
+
+#### Greedy  
+* [BinarySearch](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Algorithm/Search/BinarySearch.h)
+***
+
+#### Search  
+* [BinarySearch](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Algorithm/Search/BinarySearch.h)
+***
+
+#### Sort  
+* [Fraudulent Activity Notifications](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Algorithm/Sort/FraudulentActivityNotifications.h)
+* [QuickSort](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Algorithm/Sort/QuickSort.h)
+***
+
+
+#### Array  
+* [Diagonal Traverse - Leetcode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/Array/DiagonalTraverse.h)
+* [Larry's Array - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/Array/LarrysArray.h)
+* [MinSwap](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/Array/MinSwap.h)
+***
+
+
+#### Dictionary  
+* [Count Triplets In Geometric Progression](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/CountTripletsGeometricProgression.h)
+* [Subdomain Visit Count - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/SubdomainVisitCount.h)
+***
+
+
+
+#### Heap  
+* [KClosest - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/Heap/KClosest.h)
+***
+
+#### List  
+* [GetNodesBefore](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/List/GetNodesBefore.h)
+* [Merge Two Lists - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/List/MergeTwoList.h)
+* [ReverseLastnNodes](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/List/ReverseLastnNodes.h)
   
+***
+
+#### Math  
+* [BusStop - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/Math/BusStop.h)
+* [SqureRoot](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/Math/SquareRoot.h)
+***
+
+
+#### String  
+* [ReverseString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/String/ReverseString.h)
+* [Sherlock and the Valid String](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/String/SherlockValidString.h)
+* [Unique Emails - LeetCode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/String/UniqueEmails.h)
+* [Permutations - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/String/Permutations.h)
+***
+
+#### Tree  
+* [FlattenBinaryTreeToList - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/Tree/FlattenBinaryTreeList.h)
+* [PopulatingNextRightPointersInEachNode - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Implementation/Tree/PopulatingNextRightPointersInEachNode.h)
+***
+
+
+#### Custom DataStructure  
 * [Deque](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/Deque.h)  
 * [Queue by two Stacks](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/QueueUsingTwoStack.h)  
 * [Pointers](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DataStructure/Pointers.h)  
@@ -48,47 +105,11 @@ unlike normal projects.
 * [Singleton](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Singleton.h)
 ***
 
-#### Dictionary  
-* [Count Triplets In Geometric Progression](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/CountTripletsGeometricProgression.h)
-* [Subdomain Visit Count - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Dictionary/SubdomainVisitCount.h)
-***
-
-#### Dynamic Programming  
-* [Min Cost Path in Matrix](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DynamicProgramming/MinCostPath.h)
-* [Knapsack](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DynamicProgramming/Knapsack.h)
-***
-
-#### Heap  
-* [KClosest - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Heap/KClosest.h)
-***
-
-#### List  
-* [Merge Two Lists - Leetcode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/List/MergeTwoList.h)
-***
-
-#### Math  
-* [BusStop - Hackerrank](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/BusStop.h)
-* [SqureRoot](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Math/SquareRoot.h)
-***
-
-#### Search  
-* [BinarySearch](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Search/BinarySearch.h)
-***
-
-#### Sort  
-* [QuickSort](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Sort/QuickSort.h)
-* [Fraudulent Activity Notifications](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Sort/FraudulentActivityNotifications.h)
-***
-
-#### String  
-* [ReverseString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ReverseString.h)
-* [Util ContainersToString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/ContainersToString.h)
-* [Sherlock and the Valid String](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/SherlockValidString.h)
-* [Unique Emails - LeetCode - Easy](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/UniqueEmails.h)
-* [Permutations - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/String/Permutations.h)
-***
-
-#### Tree  
-* [FlattenBinaryTreeToList - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Tree/FlattenBinaryTreeList.h)
-* [PopulatingNextRightPointersInEachNode - LeetCode - Medium](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/Tree/PopulatingNextRightPointersInEachNode.h)
+#### Standard Library Understanding  
+* [ConcatenateStrings](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/STLDuddle/ConcatenateStrings.h)
+* [ContainersToString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/STLDuddle/ContainersToString.h)
+* [C++ Pointers](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/STLDuddle/Pointers.h)
+* [PrintContainer](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/STLDuddle/PrintContainer.h)
+* [std::sort](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/STLDuddle/Sort.h)
+* [SplitString](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/STLDuddle/SplitString.h)
 ***

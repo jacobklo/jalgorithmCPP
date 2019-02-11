@@ -26,40 +26,40 @@ include_directories(${PROJECT_SOURCE_DIR}/../src)
 
 add_executable(jalgorithmCPP_Test
         # Need to add a main() to run, it is in MostEleganceStringTest.cpp
-        Backtrack/MostEleganceStringTest.cpp
-        ../src/Backtrack/MostEleganceString.h
-        Math/BusStopTest.cpp
-        ../src/Math/BusStop.h
-        DataStructure/LinkedList/GetNodesBeforeTest.cpp
-        ../src/DataStructure/LinkedList/GetNodesBefore.h
-        DataStructure/LinkedList/ReverseLastnNodesTest.cpp
-        ../src/DataStructure/LinkedList/ReverseLastnNodes.h
-        String/ReverseStringTest.cpp
-        ../src/String/ReverseString.h
-        DataStructure/DequeTest.cpp
-        ../src/DataStructure/Deque.h
-        Sort/QuickSortTest.cpp
-        ../src/Sort/QuickSort.h
-        Search/BinarySearchTest.cpp
-        ../src/Search/BinarySearch.h
-        Dictionary/CountTripletsGeometricProgressionTest.cpp
-        ../src/Dictionary/CountTripletsGeometricProgression.h
-        DynamicProgramming/MinCostPathTest.cpp
-        ../src/DynamicProgramming/MinCostPath.h
-        Sort/FraudulentActivityNotificationsTest.cpp
-        ../src/Sort/FraudulentActivityNotifications.h
-        DynamicProgramming/MaxSubsetSumTest.cpp
-        ../src/DynamicProgramming/MaxSubsetSum.h
-        Backtrack/DavisStaircaseTest.cpp
-        ../src/Backtrack/DavisStaircase.h
-        Backtrack/AddTwoNumbersTest.cpp
-        ../src/Backtrack/AddTwoNumbers.h
-        Array/LarrysArrayTest.cpp
-        ../src/Array/LarrysArray.h
+        Algorithm/Backtrack/MostEleganceStringTest.cpp
+        ../src/Algorithm/Backtrack/MostEleganceString.h
+        Implementation/Math/BusStopTest.cpp
+        ../src/Implementation/Math/BusStop.h
+        Implementation/List/GetNodesBeforeTest.cpp
+        ../src/Implementation/List/GetNodesBefore.h
+        Implementation/List/ReverseLastnNodesTest.cpp
+        ../src/Implementation/List/ReverseLastnNodes.h
+        Implementation/String/ReverseStringTest.cpp
+        ../src/Implementation/String/ReverseString.h
+        CustomDataStructure/DequeTest.cpp
+        ../src/CustomDataStructure/Deque.h
+        Algorithm/Sort/QuickSortTest.cpp
+        ../src/Algorithm/Sort/QuickSort.h
+        Algorithm/Search/BinarySearchTest.cpp
+        ../src/Algorithm/Search/BinarySearch.h
+        Implementation/Dictionary/CountTripletsGeometricProgressionTest.cpp
+        ../src/Implementation/Dictionary/CountTripletsGeometricProgression.h
+        Algorithm/DynamicProgramming/MinCostPathTest.cpp
+        ../src/Algorithm/DynamicProgramming/MinCostPath.h
+        Algorithm/Sort/FraudulentActivityNotificationsTest.cpp
+        ../src/Algorithm/Sort/FraudulentActivityNotifications.h
+        Algorithm/DynamicProgramming/MaxSubsetSumTest.cpp
+        ../src/Algorithm/DynamicProgramming/MaxSubsetSum.h
+        Algorithm/DynamicProgramming/DavisStaircaseTest.cpp
+        ../src/Algorithm/DynamicProgramming/DavisStaircase.h
+        Algorithm/Backtrack/AddTwoNumbersTest.cpp
+        ../src/Algorithm/Backtrack/AddTwoNumbers.h
+        Implementation/Array/LarrysArrayTest.cpp
+        ../src/Implementation/Array/LarrysArray.h
         ../src/STLDuddle/ContainersToString.h
-        DataStructure/RingBufferTest.cpp
-        ../src/DataStructure/RingBuffer.h
-        DynamicProgramming/KnapsackTest.cpp
-        ../src/DynamicProgramming/Knapsack.h
+        CustomDataStructure/RingBufferTest.cpp
+        ../src/CustomDataStructure/RingBuffer.h
+        Algorithm/DynamicProgramming/KnapsackTest.cpp
+        ../src/Algorithm/DynamicProgramming/Knapsack.h
         )
 

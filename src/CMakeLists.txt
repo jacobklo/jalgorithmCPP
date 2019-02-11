@@ -22,45 +22,44 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(jalgorithmCPP
         main.cpp
-        Backtrack/MostEleganceString.h
-        Math/BusStop.h
-        DataStructure/LinkedList/GetNodesBefore.h
-        DataStructure/LinkedList/ReverseLastnNodes.h
-        String/ReverseString.h
-        Math/SquareRoot.h
-        DataStructure/Deque.h
-        Sort/QuickSort.h
+        Algorithm/Backtrack/MostEleganceString.h
+        Implementation/Math/BusStop.h
+        Implementation/List/GetNodesBefore.h
+        Implementation/List/ReverseLastnNodes.h
+        Implementation/String/ReverseString.h
+        Implementation/Math/SquareRoot.h
+        CustomDataStructure/Deque.h
+        Algorithm/Sort/QuickSort.h
         STLDuddle/ContainersToString.h
-        Search/BinarySearch.h
+        Algorithm/Search/BinarySearch.h
         DesignPattern/Singleton.h
-        Array/MinSwap.h
-        DynamicProgramming/Abbreviation.h
-        Dictionary/CountTripletsGeometricProgression.h
-        DynamicProgramming/MinCostPath.h
-        Sort/FraudulentActivityNotifications.h
-        DynamicProgramming/MaxSubsetSum.h
-        Backtrack/DavisStaircase.h
-        DataStructure/QueueUsingTwoStack.h
-        Search/TripleSum.h
-        Backtrack/AddTwoNumbers.h
-        Array/LarrysArray.h
-        Math/OrganizingContainersOfBalls.h
+        Implementation/Array/MinSwap.h
+        Algorithm/DynamicProgramming/Abbreviation.h
+        Implementation/Dictionary/CountTripletsGeometricProgression.h
+        Algorithm/DynamicProgramming/MinCostPath.h
+        Algorithm/Sort/FraudulentActivityNotifications.h
+        Algorithm/DynamicProgramming/MaxSubsetSum.h
+        Algorithm/DynamicProgramming/DavisStaircase.h
+        CustomDataStructure/QueueUsingTwoStack.h
+        Algorithm/Backtrack/AddTwoNumbers.h
+        Implementation/Array/LarrysArray.h
         STLDuddle/Pointers.h
-        String/SherlockValidString.h
+        Implementation/String/SherlockValidString.h
         STLDuddle/Sort.h
         STLDuddle/PrintContainer.h
         STLDuddle/SplitString.h
         STLDuddle/ConcatenateStrings.h
-        List/MergeTwoList.h
-        Heap/KClosest.h
-        Dictionary/SubdomainVisitCount.h
-        String/UniqueEmails.h
-        Tree/FlattenBinaryTreeList.h
-        Tree/PopulatingNextRightPointersInEachNode.h
-        String/Permutations.h
-        Backtrack/RestoreIPAddress.h
-        DataStructure/RingBuffer.h
-        DynamicProgramming/Knapsack.h
-        Array/DiagonalTraverse.h
+        Implementation/List/MergeTwoList.h
+        Implementation/Heap/KClosest.h
+        Implementation/Dictionary/SubdomainVisitCount.h
+        Implementation/String/UniqueEmails.h
+        Implementation/Tree/FlattenBinaryTreeList.h
+        Implementation/Tree/PopulatingNextRightPointersInEachNode.h
+        Implementation/String/Permutations.h
+        Algorithm/Backtrack/RestoreIPAddress.h
+        CustomDataStructure/RingBuffer.h
+        Algorithm/DynamicProgramming/Knapsack.h
+        Implementation/Array/DiagonalTraverse.h
+        Algorithm/Greedy/JumpGame.h
         )
 

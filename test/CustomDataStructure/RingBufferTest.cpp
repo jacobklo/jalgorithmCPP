@@ -3,7 +3,7 @@
 //
 
 #include "catch.hpp"
-#include "DataStructure/RingBuffer.h"
+#include "CustomDataStructure/RingBuffer.h"
 
 TEST_CASE("Test Add extra", "[TestAddExtra]") {
   RingBuffer::RingBuffer<4> rb;
