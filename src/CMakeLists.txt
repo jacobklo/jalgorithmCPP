@@ -61,5 +61,5 @@ add_executable(jalgorithmCPP
         Algorithm/DynamicProgramming/Knapsack.h
         Implementation/Array/DiagonalTraverse.h
         Algorithm/Greedy/JumpGame.h
-        )
+        Implementation/Trie/ImplementTrie.h)
 
