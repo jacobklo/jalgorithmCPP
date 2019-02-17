@@ -63,5 +63,6 @@ add_executable(jalgorithmCPP
         Algorithm/Greedy/JumpGame.h
         Implementation/Trie/ImplementTrie.h
         Implementation/Array/SpiralMatrix.h
+        DesignPattern/Creational/AbstractFactory.h
         )
 
