@@ -104,6 +104,7 @@ unlike normal projects.
 
 #### DesignPattern  
 * [Creational - AbstractFactory](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Creational/AbstractFactory.h)
+* [Structural - Adapter](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Structural/Adapter.h)
 * [Singleton](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Singleton.h)
 
 ***

@@ -64,5 +64,6 @@ add_executable(jalgorithmCPP
         Implementation/Trie/ImplementTrie.h
         Implementation/Array/SpiralMatrix.h
         DesignPattern/Creational/AbstractFactory.h
+        DesignPattern/Structural/Adapter.h
         )
 
