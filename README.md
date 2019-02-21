@@ -103,8 +103,11 @@ unlike normal projects.
 ***
 
 #### DesignPattern  
+* [Behavioral - Iterator](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Behavioral/Iterator.h)
 * [Creational - AbstractFactory](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Creational/AbstractFactory.h)
+* [Creational - Builder](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Creational/Builder.h)
 * [Structural - Adapter](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Structural/Adapter.h)
+* [Structural - Bridge](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Structural/Bridge.h)
 * [Singleton](https://github.com/jljacoblo/jalgorithmCPP/blob/master/src/DesignPattern/Singleton.h)
 
 ***
